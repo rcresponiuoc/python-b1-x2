@@ -96,7 +96,7 @@ suma total de impuestos. Por ejemplo:
    
 from bills import *
 from util_package.bill_manager import BillManager
-
+asd
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 #bill_manager = BillManager()
 #bills = bill_manager.create_bills_example()
