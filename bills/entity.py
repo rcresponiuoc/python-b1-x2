@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
-class Person:
+class Person(ABC):
+    # corregido el person (ABC), de lo contrario, tiene sentido el abstract? Pueden concurrir Person sin adhocs?
     def __init__(self, dni: str, email: str, mobile: str):
         self.dni = dni
         self.email = email
