@@ -36,7 +36,7 @@ el nombre (name: str), la fecha de caducidad (expiration_date: datetime), el có
 la cantidad (quantity: int), el precio (price: float) y una lista de impuestos (taxes: list[Tax]). 
 El alumno debe crear un constructor para estos atributos.
 
-Esta debe incluir los siguientes métodos:
+Esta debe incluir los siguientes métodos: 
 
 calculate_tax(tax:Tax): Se trata de una función que permite calcular el valor total del impuesto se calcula 
 mediante la multiplicación de la cantidad por el precio y posteriormente multiplicar por el porcentaje 
@@ -93,7 +93,7 @@ suma total de impuestos. Por ejemplo:
 [(<bills.item.Product object at 0x000001A5B79D2A50>, 180.0), (<bills.item.Product object at 0x000001A5B79D2910>, 37.08)]
 
 """
-
+   
 from bills import *
 from util_package.bill_manager import BillManager
 
