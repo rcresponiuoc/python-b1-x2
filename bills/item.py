@@ -70,7 +70,7 @@ class Bill:
     def calculate_total(self) -> float:
         total = 0
         for product in self.products:
-            total = total + self.calculate_total(tax)
+            total = total + self.calculate_total()
         return total
 
     def print(self):
